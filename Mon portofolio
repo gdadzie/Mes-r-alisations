@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ma page web personnel</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body style="background: hsl(0, 0%, 0%);">
+
+        <header class="container-fluid-sm" >
+            
+            <div class="row">
+
+                
+                <div class="col-sm-12 h1Header "><h1>Grace DADZIE</h1><h2 id="h2"><span style="background: #4bd4b7;">Développeuse Java</h2></span></div>
+                <div class="col-sm-5  h3Header"><h3>Bonjour, je suis Grace, développeuse Java,<p/> bientôt diplômé chez Openclassrooms.</h3></div>
+                <img  class="photoProfil"src="images/1.png" alt="">
+                
+            
+            </div>
+            
+        </header>
+
+        <main class="container-fluid-sm">
+
+            <div class="row ">
+
+                <div class="col-sm align-self-center text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>
+
+                <div class="col-sm  text-sm-justify  sectionCompetences">
+                    <h2>Mes <span style="background:#4bd4b7;">compétences</span></h2>
+                    <p>Je crée des sites web dynamiques à l'aide des langages HTML/CSS, JavaScript et PHP,voici quelques
+                        exemples:
+                        <ul>
+                            
+                            <li><a href="#">Ma page web personnelle</a></li>
+
+                        </ul>
+                    </p>
+                    <p>Je poursuis actuellement la formation de développeur d'application Java (niveau bac+3/4) chez Openclassrooms,
+                        nous réalisons des projets réels, tels que:
+                        <ul>
+                            <li>La création d'application web avec Springboot.</li>
+                            <li>Le développement d'une application web avec Java.</li>
+                        </ul>
+                        <p>Passionée du développement back-end, je me forme énorment avec des nouvelles méthodes, telle que le Domain-Driven Design, les concepts Solids,
+                        et la gestion des projets agiles</p>
+                    </p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="container-fluid-sm">
+
+            <div class="row">
+                <div class="col-12"><h2 style="color: ivory;">Retrouvez-moi sur les réseaux</h2></div>
+                <div class="col-12"><h3>Une idée de projet? contactez-moi!</h3></div>
+            </div>
+
+            <div id="mainFooter" class="container">
+                <div class="row footer justify-content-center">
+                    <div class="col-2"><a href="https://www.facebook.com/profile.php?id=100012065928498"><img class="icons" src="icons/facebook.svg" alt=""></a></div>
+                    <div class="col-2"><a href="https://www.instagram.com/faith_destiny_crowned/"><img class="icons" src="icons/instagram.svg" alt=""></a></div>
+                    <div class="col-2"><a href=""><img class="icons" src="icons/github.svg"alt=""></a></div>
+                    
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
